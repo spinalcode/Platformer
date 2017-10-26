@@ -1,4 +1,5 @@
 #include "Pokitto.h"
+#include "gfx.h"
 
 Pokitto::Core game;
 
@@ -80,21 +81,23 @@ void setup(){
     game.display.width = 110; // half size
     game.display.height = 86;
 
-//    gb.display.load565Palette(pokulous_pal);
     game.display.clear();
     game.display.setColorDepth(4);
+    game.display.load565Palette(sprite_pal);
     game.display.bgcolor = 13;
-    game.display.invisiblecolor = 15;
+    game.display.invisiblecolor = 13;
     game.sound.ampEnable(true);
     game.sound.playMusicStream();
 
     tempTime = game.getTime();
-
+    myDelay = 120;
 }
 
 
 int main(){
     setup();
+
+    int pFrame=0;
 
     while (game.isRunning()) {
 
@@ -113,6 +116,11 @@ int main(){
 //                    playLevel();
                     break;
             }
+
+
+            game.display.drawBitmap(0,0,sprites[pFrame]);
+            game.display.update();
+            if(pFrame++==5)pFrame=0;
 
         // timing loop
         while(game.getTime()-tempTime < myDelay){
