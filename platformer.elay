@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="platformer" />
+	<File name="gfx.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2123" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="mbed_config.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="My_settings.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="643" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PokittoLib\mbed-pokitto\common\error.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="977" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PokittoLib\POKITTO_CORE\PokittoDisplay.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8868" topLine="232" />
+		</Cursor>
+	</File>
+	<File name="PokittoLib\POKITTO_HW\HWLCD.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="26983" topLine="733" />
+		</Cursor>
+	</File>
+	<File name="PokittoLib\POKITTO_HW\HWLCD.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2701" topLine="44" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>
